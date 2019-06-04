@@ -1,4 +1,4 @@
-package com.store.store.reflecttest;
+package mainTest.reflecttest;
 
 /**
  * Created by Administrator on 2019/3/19.

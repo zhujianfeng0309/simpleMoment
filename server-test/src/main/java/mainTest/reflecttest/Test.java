@@ -1,4 +1,4 @@
-package com.store.store.reflecttest;
+package mainTest.reflecttest;
 
 import java.lang.reflect.Field;
 import java.util.HashMap;

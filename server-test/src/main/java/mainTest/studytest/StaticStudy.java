@@ -1,4 +1,4 @@
-package com.store.store.studytest;
+package mainTest.studytest;
 
 /**
  * Created by Administrator on 2019/1/27.

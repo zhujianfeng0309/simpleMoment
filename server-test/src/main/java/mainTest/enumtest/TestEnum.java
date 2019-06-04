@@ -1,4 +1,4 @@
-package com.store.store.enumtest;
+package mainTest.enumtest;
 
 /**
  * Created by Administrator on 2019/1/27.
