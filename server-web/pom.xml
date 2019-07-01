@@ -11,5 +11,19 @@
 
     <artifactId>server-web</artifactId>
 
+    <dependencies>
+        <dependency>
+            <artifactId>store</artifactId>
+            <groupId>com.store</groupId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.1.3.RELEASE</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

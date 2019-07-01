@@ -1,0 +1,22 @@
+server:
+  port: 9001
+
+spring:
+  datasource:
+     driver-class-name: com.mysql.cj.jdbc.Driver
+     url:
+driverClassName: com.mysql.cj.jdbc.Driver
+#dubbo配置
+dubbo:
+  application:
+    name:  dubbo-server
+  registry:
+    address: 125.77.116.145:2182
+    # 读者请换成自己的zookeeperip
+    protocol: zookeeper
+    check: false
+  monitor:
+    protocol: register
+  consumer:
+    check:  false
+    timeout: 3000
