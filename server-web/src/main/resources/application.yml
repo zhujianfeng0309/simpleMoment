@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-     driver-class-name: com.mysql.cj.jdbc.Driver
+     driver-class-name:
      url:
 driverClassName: com.mysql.cj.jdbc.Driver
 #dubbo配置
@@ -11,7 +11,7 @@ dubbo:
   application:
     name:  dubbo-server
   registry:
-    address: 125.77.116.145:2182
+    address: 192.168.65.128:s
     # 读者请换成自己的zookeeperip
     protocol: zookeeper
     check: false

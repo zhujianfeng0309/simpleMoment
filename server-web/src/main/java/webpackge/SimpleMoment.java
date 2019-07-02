@@ -1,5 +1,4 @@
-package self.person.study;
-
+package self.person.study.webPackge
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
