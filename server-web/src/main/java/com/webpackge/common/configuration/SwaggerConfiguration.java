@@ -68,7 +68,7 @@ public class SwaggerConfiguration implements ApplicationListener<WebServerInitia
     }*/
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .license("Apache License Version 2.0")
+                // .license("Apache License Version 2.0")
                 .title("api文档")
                 .description("web接口")
                 //服务条款网址
