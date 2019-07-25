@@ -37,7 +37,6 @@ public class InetAddressUtil {
 
     }
 
-
     public static String getLocalIP(){
         String ip = "";
         InetAddress localInetAddress = getLocalInetAddress();

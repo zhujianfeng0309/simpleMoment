@@ -1,0 +1,16 @@
+server:
+  port: 8881
+dubbo:
+  application:
+    name: dubbo-server
+  scan:
+    base-packages: com.ali.dubbo
+  registry:
+    id: my-server-registry
+    address: zookeeper://192.168.65.128:2181
+    group: dubbo-server
+  protocol:
+    name: dubbo-server
+    port: 20881
+
+

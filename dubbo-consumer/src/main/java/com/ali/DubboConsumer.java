@@ -1,17 +1,18 @@
-package com.webpackge;
+package com.ali;
 
+import com.alibaba.dubbo.config.spring.context.annotation.EnableDubboConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-import org.springframework.context.annotation.ComponentScan;
+
 /**
  * Created by Administrator on 2019/6/4.
  */
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-@ComponentScan(basePackages="{com.webpackge}")
-public class SimpleMoment {
+@EnableDubboConfig
+public class DubboConsumer {
         public static void main(String[] args) {
-            SpringApplication.run(SimpleMoment.class, args);
+            SpringApplication.run(DubboConsumer.class, args);
         }
 
 }
