@@ -1,16 +1,22 @@
-server:
-  port: 8881
+
+
 dubbo:
   application:
+#    id: dubbo-server
     name: dubbo-server
+#    qos-enable: true
+#    qos-port: 22222
+#  server: true
   scan:
     base-packages: com.ali.dubbo
   registry:
-    id: my-server-registry
     address: zookeeper://192.168.65.128:2181
-    group: dubbo-server
   protocol:
+    id: 20880
     name: dubbo-server
-    port: 20881
+    port: 20880
+    status: server
 
+server:
+  port: 8881
 

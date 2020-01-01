@@ -15,7 +15,10 @@ public class HelloController {
     @Reference(version = "1.0.0")
     DubboDemoService dubboDemoService;
 
-    @GetMapping(value = "/sayHello")
+    /*@Reference(version = "1.0.0")
+    UserService userService;*/
+
+    @GetMapping(value = "/sayhello")
     public String sayHello(@RequestParam("name") String name){
         return dubboDemoService.sayHello(name);
     }
