@@ -1,0 +1,14 @@
+server:
+  port: 8882
+
+dubbo:
+  application:
+    name: dubbo-client
+  scan:
+    base-packages: com.ali.controller
+  registry:
+    id: my-client-registry
+    address: zookeeper://192.168.65.128:2181
+  protocol:
+    name: dubbo-client
+    port: 20882
