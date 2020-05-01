@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.zdzc.base.mapper")
+@MapperScan("com.store.dubbo.server.mapper")
 public class SpringbootDubboServerApplication {
 
     public static void main(String[] args) {

@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.store</groupId>
     <artifactId>springboot-dubbo-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
     <name>springboot-dubbo-api</name>
 
     <parent>
         <groupId>com.store</groupId>
         <artifactId>store</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
         <relativePath>../../simpleMoment/pom.xml</relativePath>
     </parent>
 

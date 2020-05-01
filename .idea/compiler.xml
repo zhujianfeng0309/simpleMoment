@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-dubbo-client" />
-        <module name="common-service" />
-        <module name="springboot-dubbo-api" />
-        <module name="server-test" />
         <module name="springboot-dubbo-server" />
+        <module name="server-test" />
+        <module name="springboot-dubbo-api" />
+        <module name="common-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
