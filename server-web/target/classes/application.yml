@@ -1,7 +1,0 @@
-server:
-  port: 9088
-# Dubbo Config properties
-## ApplicationConfig Bean
-
-
-

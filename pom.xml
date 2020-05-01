@@ -13,12 +13,12 @@
 	<artifactId>store</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<modules>
-        <module>server-web</module>
+		<module>common-service</module>
+		<module>springboot-dubbo-api</module>
+		<module>springboot-dubbo-client</module>
+		<module>springboot-dubbo-server</module>
 		<module>server-test</module>
-		<module>dubbo-provide</module>
-		<module>dubbo-consumer</module>
-        <module>server-service</module>
-    </modules>
+	</modules>
 	<packaging>pom</packaging>
 
 	<name>simpleMoment</name>
@@ -28,6 +28,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<spring-cloud.version>Greenwich.SR3</spring-cloud.version>
+		<alibaba-cloud.version>2.1.1.RELEASE</alibaba-cloud.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>

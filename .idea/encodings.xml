@@ -2,16 +2,13 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dubbo-consumer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dubbo-consumer/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dubbo-provide" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dubbo-provide/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-test/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server-web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-server/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
