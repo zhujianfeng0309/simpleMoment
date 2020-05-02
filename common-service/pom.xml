@@ -52,7 +52,6 @@
     <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-beans</artifactId>
-        <version>${spring-beans.version}</version>
     </dependency>
     <dependency>
         <groupId>com.alibaba</groupId>

@@ -7,12 +7,12 @@
     <artifactId>springboot-dubbo-server</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
-    <name>${project.artifactId}</name>
+    <name>springboot-dubbo-server</name>
     <parent>
         <groupId>com.store</groupId>
         <artifactId>store</artifactId>
         <version>1.0.0</version>
-        <relativePath>../../springbootdubbo/pom.xml</relativePath>
+        <relativePath>../../simpleMoment/pom.xml</relativePath>
     </parent>
 
     <properties>
