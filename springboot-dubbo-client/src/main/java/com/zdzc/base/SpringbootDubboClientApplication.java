@@ -1,12 +1,12 @@
-package com.store.dubbo.api;
+package com.zdzc.base;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootDubboApiApplication {
+public class SpringbootDubboClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootDubboApiApplication.class, args);
+        SpringApplication.run(SpringbootDubboClientApplication.class, args);
     }
 }

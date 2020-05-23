@@ -1,4 +1,4 @@
-package com.store.dubbo.api.model;
+package com.zdzc.base.model;
 
 import java.io.Serializable;
 

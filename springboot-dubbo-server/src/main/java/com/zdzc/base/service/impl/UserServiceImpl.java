@@ -1,16 +1,13 @@
-package com.store.dubbo.server.impl;
+package com.zdzc.base.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.store.dubbo.server.mapper.UserMapper;
-import com.store.dubbo.api.model.User;
-import com.store.dubbo.api.service.UserService;
+import com.zdzc.base.mapper.UserMapper;
+import com.zdzc.base.model.User;
+import com.zdzc.base.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-/**
- * 实现类
- */
 @Service(version = "1.0.0")
 public class UserServiceImpl implements UserService {
 
@@ -19,6 +16,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<User> findAllUsers() {
-        return null;
+        return userMapper.selectAllUsers();
     }
 }
