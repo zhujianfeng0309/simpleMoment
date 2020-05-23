@@ -1,7 +1,7 @@
-package com.zdzc.base.service.impl;
+package com.store.server.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.zdzc.base.service.DemoService;
+import com.store.base.service.DemoService;
 import org.springframework.stereotype.Component;
 
 @Component

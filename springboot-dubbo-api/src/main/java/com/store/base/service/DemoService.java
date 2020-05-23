@@ -1,4 +1,4 @@
-package com.zdzc.base.service;
+package com.store.base.service;
 
 public interface DemoService {
     String sayHello(String name);

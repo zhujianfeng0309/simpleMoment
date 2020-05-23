@@ -1,6 +1,6 @@
-package com.zdzc.base.mapper;
+package com.store.server.mapper;
 
-import com.zdzc.base.model.User;
+import com.store.base.model.User;
 
 import java.util.List;
 

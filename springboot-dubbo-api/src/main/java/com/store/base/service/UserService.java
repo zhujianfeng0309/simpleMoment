@@ -1,7 +1,7 @@
-package com.zdzc.base.service;
+package com.store.base.service;
 
 
-import com.zdzc.base.model.User;
+import com.store.base.model.User;
 
 import java.util.List;
 

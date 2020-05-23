@@ -1,8 +1,8 @@
-package com.zdzc.base.controller;
+package com.store.client.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.zdzc.base.model.User;
-import com.zdzc.base.service.UserService;
+import com.store.base.model.User;
+import com.store.base.service.UserService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

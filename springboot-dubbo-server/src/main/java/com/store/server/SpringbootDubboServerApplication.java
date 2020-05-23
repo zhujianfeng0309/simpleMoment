@@ -1,4 +1,4 @@
-package com.zdzc.base;
+package com.store.server;
 
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;

@@ -1,4 +1,4 @@
-package com.zdzc.base.model;
+package com.store.base.model;
 
 import java.io.Serializable;
 

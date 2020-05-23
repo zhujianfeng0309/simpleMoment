@@ -1,9 +1,9 @@
-package com.zdzc.base.service.impl;
+package com.store.server.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.zdzc.base.mapper.UserMapper;
-import com.zdzc.base.model.User;
-import com.zdzc.base.service.UserService;
+import com.store.server.mapper.UserMapper;
+import com.store.base.model.User;
+import com.store.base.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
