@@ -1,5 +1,6 @@
 package com.store.server;
 
+import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
@@ -10,8 +11,8 @@ import org.springframework.boot.autoconfigure.http.HttpMessageConverters;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.converter.HttpMessageConverter;
 
-@SpringBootApplication
-@MapperScan("com.zdzc.base.mapper")
+@SpringBootApplication(scanBasePackages = {"com.store.server"},exclude = {DruidDataSourceAutoConfigure.class})
+@MapperScan("com.store.server.mapper")
 public class SpringbootDubboServerApplication {
 
     public static void main(String[] args) {
