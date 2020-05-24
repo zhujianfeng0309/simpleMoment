@@ -1,4 +1,4 @@
-package com.store.base;
+package com.store.server;
 
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.http.converter.HttpMessageConverter;
 
 @SpringBootApplication
-@MapperScan("com.zdzc.base.mapper")
+@MapperScan("com.store.server.mapper")
 public class SpringbootDubboServerApplication {
 
     public static void main(String[] args) {

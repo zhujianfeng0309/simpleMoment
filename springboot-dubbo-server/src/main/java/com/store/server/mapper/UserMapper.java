@@ -1,4 +1,4 @@
-package com.store.base.mapper;
+package com.store.server.mapper;
 
 import com.store.base.model.User;
 import org.apache.ibatis.annotations.Mapper;

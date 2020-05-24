@@ -1,7 +1,7 @@
-package com.store.base.service.impl;
+package com.store.server.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.store.base.mapper.UserMapper;
+import com.store.server.mapper.UserMapper;
 import com.store.base.model.User;
 import com.store.base.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

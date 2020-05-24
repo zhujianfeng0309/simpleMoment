@@ -1,4 +1,4 @@
-package com.store.base.service.impl;
+package com.store.server.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.store.base.service.DemoService;
