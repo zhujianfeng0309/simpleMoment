@@ -120,31 +120,6 @@
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${springfox-swagger.version}</version>
             </dependency>
-            <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-swagger2</artifactId>
-                <version>${springfox-swagger.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.swagger</groupId>
-                <artifactId>swagger-annotations</artifactId>
-                <version>${swagger.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.swagger</groupId>
-                <artifactId>swagger-models</artifactId>
-                <version>${swagger.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.github.robwin</groupId>
-                <artifactId>assertj-swagger</artifactId>
-                <version>${assertj-swagger-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.github.swagger2markup</groupId>
-                <artifactId>swagger2markup-spring-restdocs-ext</artifactId>
-                <version>${swagger2markup-spring-restdocs-ext-version}</version>
-            </dependency>
             <!-- swagger End -->
             <dependency>
                 <groupId>com.ctrip.framework.apollo</groupId>
@@ -210,12 +185,19 @@
                 <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
                 <version>${nacos.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-annotation</artifactId>
+                <version>3.4.3</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
     <modules>
       <module>java-base</module>
         <module>java-base-web</module>
+        <module>java-netty</module>
+        <module>java-common</module>
     </modules>
 
 

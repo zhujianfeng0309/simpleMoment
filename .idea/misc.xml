@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/java-base/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/java-common/pom.xml" />
+        <option value="$PROJECT_DIR$/java-base-web/base-quertz/pom.xml" />
       </list>
     </option>
   </component>

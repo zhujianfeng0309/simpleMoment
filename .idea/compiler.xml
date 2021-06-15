@@ -7,19 +7,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java-base" />
+        <module name="java-netty" />
+        <module name="base-quertz" />
         <module name="java-base-web" />
+        <module name="java-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="base-quertz" target="8" />
       <module name="java-base" target="8" />
       <module name="java-base-web" target="8" />
+      <module name="java-common" target="8" />
+      <module name="java-netty" target="8" />
       <module name="simpleMoment" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="base-quertz" options="-parameters" />
       <module name="java-base" options="-parameters" />
       <module name="java-base-web" options="-parameters" />
+      <module name="java-common" options="-parameters" />
+      <module name="java-netty" options="-parameters" />
     </option>
   </component>
 </project>
